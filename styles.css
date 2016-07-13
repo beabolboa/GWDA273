@@ -1,0 +1,14 @@
+		
+
+		body {
+	background-image: url(https://static.pexels.com/photos/32261/pexels-photo.jpg);	
+	background-size: cover;	
+		}
+		h1 {
+			font-size: 60px;
+			color: #c70039;
+			font-family: 'Passion One', cursive;
+			text-align: center;
+			padding: 300px;
+			text-shadow: 5px 2px 4px black;
+		}

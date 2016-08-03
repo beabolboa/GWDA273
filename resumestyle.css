@@ -423,6 +423,7 @@ textarea {
   body {
     font-family: 'Work Sans', sans-serif;
     background-image: url("27.jpg");
+    background-size: 100% 100%;
     background-attachment: fixed;
     color: #a1998e;
     padding-top: 20px;

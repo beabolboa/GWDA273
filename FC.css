@@ -1,0 +1,177 @@
+body {
+	background-color: #FFD694; 
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.tk-balboa-plus-inline h1 {
+	font-weight:normal;
+	font-size:80px;
+	text-align:center;
+	color: white;
+	margin:0;
+	margin-top: 100px;
+	padding:0;
+
+}
+
+h1 {
+	font-weight:normal;
+	font-size: 80px;
+	text-align:center;
+	color: white;
+	margin:0;
+	margin-top: 130px;
+	padding:0;
+}
+
+.tk-lust-script h2 { 
+	font-weight:normal;
+	font-size:50px;
+	text-align:center;
+	color: white;
+	margin:0;
+	padding:0;
+ }
+
+h2 {
+	font-weight:normal;
+	font-size:50px;
+	text-align:center;
+	color: white;
+	margin:0;
+	padding:0;
+}
+
+.content {
+	margin:0 auto;
+}
+
+.info {
+	margin:0 auto;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+#header {
+	width:100%;
+	background:url('header1.png');
+	height:80px;
+	position:fixed;
+	margin-top:30px;
+}
+
+#nav {
+	width:410px;
+	float:right;
+	margin-top:20px;
+}
+
+#nav ul {
+	list-style:none;
+	display:block;
+	margin:0 auto;
+	list-style:none;
+}
+
+#nav li {
+	margin-top:9px;
+	float:left;
+	padding-left:21px;
+} 
+
+#nav li a {
+	color: white;
+	opacity:0.6;
+	font-size:16px;
+	text-decoration:none;
+}
+
+#nav li a.active {
+	color: white;
+	opacity:1;
+	border-bottom:2px solid white;
+}
+
+#nav li a:hover {
+	color: white;
+	opacity:1;
+}
+
+.tit
+{
+	font-family: "lust-script";
+	color: #95B1DC;
+	font-weight:normal;
+	font-size:30px;
+	text-align:left;
+	margin:50px auto
+}
+	
+	#home,#ourstory
+{
+	width:100%
+}
+	#home
+{
+	background:url('arilu6.jpg') 50% 0 no-repeat fixed;
+	color: white;
+	height:600px;
+	margin:0;
+	padding:200px 0 260px 0;
+	background-size:cover
+}
+	#ourstory
+{
+	background-color:#fff;
+	color: #95B1DC;
+	height:300px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:200px 0;
+}
+	#weddingparty
+{
+	color: white;
+	height:600px;
+	padding:170px 0 0 0;
+	
+}
+
+	#registry
+{
+	background-color:#fff;
+	color:#95B1DC;
+	height:300px;
+	padding:200px 0
+}
+
+	#rsvp
+{
+	color: white;
+	height:600px;
+	padding:170px 0 0 0;
+	font-size: 30px;
+	text-align: center;
+	
+}
+	#copyright
+{
+	color:#95B1DC;
+	font-family:"tk-balboa-plus-inline";
+	font-size:18px;
+	margin-top:100px;
+	text-align:center
+}
+	#copyright a
+{
+	text-decoration:none;
+	color: white;
+}
+
+img .displayed {
+    display: block;
+    margin-left: 500px;
+    margin-right: auto }

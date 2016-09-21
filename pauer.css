@@ -147,3 +147,12 @@ footer {
 .esc {
   animation-duration: 10s;
 }
+
+.trans {
+  -webkit-transition: width 2s; 
+  transition: width 2s;
+}
+
+.trans:hover {
+  width: 300px;
+}

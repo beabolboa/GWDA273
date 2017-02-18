@@ -1,0 +1,19 @@
+svg {
+  width: 600px;
+}
+
+.st0{
+  fill:none;
+  stroke:#000000;
+  stroke-width: 3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 2s linear infinite;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+}
+}

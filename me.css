@@ -1,0 +1,165 @@
+* {
+  font-family: "Poplar Std",sans-serif;
+}
+
+body {
+text-align: center;
+background-size:1500px;
+  background-image: url(b2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.adentro {
+  width:960px;
+  margin: 0 auto;
+}
+
+.row{
+  float:none;
+  color:white;
+  padding-top:0.1px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  
+}
+
+header nav {
+  display: flex;
+}
+header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  display:inline;
+  color:white;
+  font-size:45px;
+}
+
+a:hover {
+ color:#7FFE9E; 
+}
+
+
+.nav {
+  animation-duration: 2s;
+}
+
+
+.esc {
+  animation-duration: 10s;
+}
+
+.trans {
+  -webkit-transition: width 2s; 
+  transition: width 2s;
+}
+
+.trans:hover {
+  width: 300px;
+}
+
+svg {
+  margin: auto;
+}
+.b{
+  fill:none;
+  stroke:white;
+  stroke-width: 2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 5s linear forwards;
+}
+
+.e{
+  fill:none;
+  stroke:white;
+  stroke-width: 2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 5s linear forwards;
+  animation-delay: 2s;
+}
+
+.a{
+  fill:none;
+  stroke:white;
+  stroke-width: 2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 5s linear forwards;
+  animation-delay: 3s;
+}
+
+.ra{
+  fill:none;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 5s linear forwards;
+  animation-delay: 4s;
+}
+
+.s3{
+  fill:none;
+  stroke:#D06158;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 6s linear forwards;
+  animation-delay: 7s;
+}
+
+.s2{
+  fill:none;
+  stroke:#D06158;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 6s linear forwards;
+  animation-delay: 6s;
+}
+
+.s1{
+  fill:none;
+  stroke:#D06158;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1100;
+  animation: draw 6s linear forwards;
+  animation-delay: 5s;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+}
+
+
